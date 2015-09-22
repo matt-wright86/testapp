@@ -1,2 +1,10 @@
-<h1>Posts#show</h1>
-<p>Find me in app/views/posts/show.html.erb</p>
+
+<div class="container">
+
+    <button class="btn btn-default"><%= link_to 'Back', posts_path %></button>
+    <hr>
+
+<div class="alert alert-info" role="alert">  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <h4><%=@post.title%></h4>
+  <%=@post.body%></div>
+</end>
